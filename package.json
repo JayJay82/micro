@@ -1,0 +1,11 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.10.6"
+  },
+  "scripts": {
+    "start_react_app": "lerna run start_react",
+    "clean": "rm -rf node_modules && lerna clean --yes"
+  }
+}
